@@ -1,0 +1,868 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF04985227FDA4FD0056B549 /* iPodWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF04985127FDA4FD0056B549 /* iPodWheel.swift */; };
+		CF24855D27C23D9500A2A3BE /* playerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF24855C27C23D9500A2A3BE /* playerModel.swift */; };
+		CF24856527C2510900A2A3BE /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF24856427C2510900A2A3BE /* WidgetKit.framework */; };
+		CF24856727C2510900A2A3BE /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF24856627C2510900A2A3BE /* SwiftUI.framework */; };
+		CF24856A27C2510900A2A3BE /* nea2k_music_Widget.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF24856927C2510900A2A3BE /* nea2k_music_Widget.swift */; };
+		CF24856D27C2510C00A2A3BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF24856C27C2510C00A2A3BE /* Assets.xcassets */; };
+		CF24856F27C2510C00A2A3BE /* nea2k_music_widget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = CF24856B27C2510900A2A3BE /* nea2k_music_widget.intentdefinition */; };
+		CF24857027C2510C00A2A3BE /* nea2k_music_widget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = CF24856B27C2510900A2A3BE /* nea2k_music_widget.intentdefinition */; };
+		CF24857327C2510C00A2A3BE /* nea2k music widgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = CF24856227C2510900A2A3BE /* nea2k music widgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CF24857A27C349C200A2A3BE /* iPod1st_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF24857927C349C200A2A3BE /* iPod1st_View.swift */; };
+		CF24857C27C34AD500A2A3BE /* iPodAquaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF24857B27C34AD500A2A3BE /* iPodAquaView.swift */; };
+		CF44DD4A27E9F2B300F5CEC0 /* OP1styleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF44DD4927E9F2B300F5CEC0 /* OP1styleView.swift */; };
+		CF62F6D927CDE07100CE8790 /* Braun type.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF62F6D827CDE07100CE8790 /* Braun type.swift */; };
+		CF93FA7A27E05381005F2BF6 /* GameBoy.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF93FA7927E05381005F2BF6 /* GameBoy.swift */; };
+		CF9D760927C491D800C1E00E /* Chicago Normal.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF9D760727C491D500C1E00E /* Chicago Normal.ttf */; };
+		CF9D760A27C491D900C1E00E /* Chicago Normal.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF9D760727C491D500C1E00E /* Chicago Normal.ttf */; };
+		CF9D760B27C491DC00C1E00E /* LucidaGrande.ttc in Resources */ = {isa = PBXBuildFile; fileRef = CF9D760827C491D500C1E00E /* LucidaGrande.ttc */; };
+		CF9D760C27C491DD00C1E00E /* LucidaGrande.ttc in Resources */ = {isa = PBXBuildFile; fileRef = CF9D760827C491D500C1E00E /* LucidaGrande.ttc */; };
+		CF9D760D27C49A1800C1E00E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFFDDE3627C2287C003C627C /* Assets.xcassets */; };
+		CFCE94D127C4BC530072C1B7 /* playerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF24855C27C23D9500A2A3BE /* playerModel.swift */; };
+		CFF194822918A93F0008B746 /* widgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF194802918A90B0008B746 /* widgetBundle.swift */; };
+		CFF194842918A96A0008B746 /* widgetLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF194832918A96A0008B746 /* widgetLiveActivity.swift */; };
+		CFF194852918AA7B0008B746 /* widgetLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF194832918A96A0008B746 /* widgetLiveActivity.swift */; };
+		CFFA67C2291144D400A7F890 /* iPod1st_Widget.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFA67C029113FFB00A7F890 /* iPod1st_Widget.swift */; };
+		CFFA67C52911467300A7F890 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFA67C42911467300A7F890 /* ColorExtension.swift */; };
+		CFFA67C62911467C00A7F890 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFA67C42911467300A7F890 /* ColorExtension.swift */; };
+		CFFDDE3327C2287A003C627C /* nea2k_musicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFDDE3227C2287A003C627C /* nea2k_musicApp.swift */; };
+		CFFDDE3527C2287A003C627C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFDDE3427C2287A003C627C /* ContentView.swift */; };
+		CFFDDE3727C2287C003C627C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFFDDE3627C2287C003C627C /* Assets.xcassets */; };
+		CFFDDE3A27C2287C003C627C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFFDDE3927C2287C003C627C /* Preview Assets.xcassets */; };
+		CFFDDE4427C2287C003C627C /* nea2k_musicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFDDE4327C2287C003C627C /* nea2k_musicTests.swift */; };
+		CFFDDE4E27C2287C003C627C /* nea2k_musicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFDDE4D27C2287C003C627C /* nea2k_musicUITests.swift */; };
+		CFFDDE5027C2287C003C627C /* nea2k_musicUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFDDE4F27C2287C003C627C /* nea2k_musicUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF24857127C2510C00A2A3BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFFDDE2727C2287A003C627C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF24856127C2510900A2A3BE;
+			remoteInfo = "nea2k music widgetExtension";
+		};
+		CFFDDE4027C2287C003C627C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFFDDE2727C2287A003C627C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFFDDE2E27C2287A003C627C;
+			remoteInfo = "nea2k music";
+		};
+		CFFDDE4A27C2287C003C627C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFFDDE2727C2287A003C627C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFFDDE2E27C2287A003C627C;
+			remoteInfo = "nea2k music";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CF24857727C2510C00A2A3BE /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CF24857327C2510C00A2A3BE /* nea2k music widgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CF04985127FDA4FD0056B549 /* iPodWheel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPodWheel.swift; sourceTree = "<group>"; };
+		CF24855C27C23D9500A2A3BE /* playerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playerModel.swift; sourceTree = "<group>"; };
+		CF24856227C2510900A2A3BE /* nea2k music widgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "nea2k music widgetExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF24856427C2510900A2A3BE /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		CF24856627C2510900A2A3BE /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		CF24856927C2510900A2A3BE /* nea2k_music_Widget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nea2k_music_Widget.swift; sourceTree = "<group>"; };
+		CF24856B27C2510900A2A3BE /* nea2k_music_widget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = nea2k_music_widget.intentdefinition; sourceTree = "<group>"; };
+		CF24856C27C2510C00A2A3BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF24856E27C2510C00A2A3BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF24857927C349C200A2A3BE /* iPod1st_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPod1st_View.swift; sourceTree = "<group>"; };
+		CF24857B27C34AD500A2A3BE /* iPodAquaView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iPodAquaView.swift; sourceTree = "<group>"; };
+		CF44DD4927E9F2B300F5CEC0 /* OP1styleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OP1styleView.swift; sourceTree = "<group>"; };
+		CF62F6D827CDE07100CE8790 /* Braun type.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Braun type.swift"; sourceTree = "<group>"; };
+		CF93FA7927E05381005F2BF6 /* GameBoy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBoy.swift; sourceTree = "<group>"; };
+		CF9D760727C491D500C1E00E /* Chicago Normal.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Chicago Normal.ttf"; sourceTree = "<group>"; };
+		CF9D760827C491D500C1E00E /* LucidaGrande.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = LucidaGrande.ttc; sourceTree = "<group>"; };
+		CFABFE31296EA0B800AF86A8 /* nea2k music.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "nea2k music.entitlements"; sourceTree = "<group>"; };
+		CFABFE32296EA0EA00AF86A8 /* nea2k music widgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "nea2k music widgetExtension.entitlements"; sourceTree = "<group>"; };
+		CFD5DB772824CDF10071066F /* Baskerville.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Baskerville.ttc; sourceTree = "<group>"; };
+		CFD5DB7A2824D91E0071066F /* EBGaramond-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EBGaramond-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		CFF194802918A90B0008B746 /* widgetBundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = widgetBundle.swift; sourceTree = "<group>"; };
+		CFF194832918A96A0008B746 /* widgetLiveActivity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = widgetLiveActivity.swift; sourceTree = "<group>"; };
+		CFFA67C029113FFB00A7F890 /* iPod1st_Widget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPod1st_Widget.swift; sourceTree = "<group>"; };
+		CFFA67C42911467300A7F890 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		CFFDDE2F27C2287A003C627C /* nea2k music.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "nea2k music.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFFDDE3227C2287A003C627C /* nea2k_musicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nea2k_musicApp.swift; sourceTree = "<group>"; };
+		CFFDDE3427C2287A003C627C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CFFDDE3627C2287C003C627C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFFDDE3927C2287C003C627C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CFFDDE3F27C2287C003C627C /* nea2k musicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "nea2k musicTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFFDDE4327C2287C003C627C /* nea2k_musicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nea2k_musicTests.swift; sourceTree = "<group>"; };
+		CFFDDE4927C2287C003C627C /* nea2k musicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "nea2k musicUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFFDDE4D27C2287C003C627C /* nea2k_musicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nea2k_musicUITests.swift; sourceTree = "<group>"; };
+		CFFDDE4F27C2287C003C627C /* nea2k_musicUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nea2k_musicUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CFFDDE5E27C228A1003C627C /* nea2k-music-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "nea2k-music-Info.plist"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF24855F27C2510900A2A3BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF24856727C2510900A2A3BE /* SwiftUI.framework in Frameworks */,
+				CF24856527C2510900A2A3BE /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFFDDE2C27C2287A003C627C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFFDDE3C27C2287C003C627C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFFDDE4627C2287C003C627C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF24856327C2510900A2A3BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF24856427C2510900A2A3BE /* WidgetKit.framework */,
+				CF24856627C2510900A2A3BE /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF24856827C2510900A2A3BE /* nea2k music Widget */ = {
+			isa = PBXGroup;
+			children = (
+				CFF194802918A90B0008B746 /* widgetBundle.swift */,
+				CF24856927C2510900A2A3BE /* nea2k_music_Widget.swift */,
+				CFFA67C029113FFB00A7F890 /* iPod1st_Widget.swift */,
+				CFF194832918A96A0008B746 /* widgetLiveActivity.swift */,
+				CF24856B27C2510900A2A3BE /* nea2k_music_widget.intentdefinition */,
+				CF24856C27C2510C00A2A3BE /* Assets.xcassets */,
+				CF24856E27C2510C00A2A3BE /* Info.plist */,
+			);
+			path = "nea2k music Widget";
+			sourceTree = "<group>";
+		};
+		CFABFE30296E98F100AF86A8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CF24857927C349C200A2A3BE /* iPod1st_View.swift */,
+				CF04985127FDA4FD0056B549 /* iPodWheel.swift */,
+				CF24857B27C34AD500A2A3BE /* iPodAquaView.swift */,
+				CF93FA7927E05381005F2BF6 /* GameBoy.swift */,
+				CF44DD4927E9F2B300F5CEC0 /* OP1styleView.swift */,
+				CF62F6D827CDE07100CE8790 /* Braun type.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CFFDDE2627C2287A003C627C = {
+			isa = PBXGroup;
+			children = (
+				CFABFE32296EA0EA00AF86A8 /* nea2k music widgetExtension.entitlements */,
+				CFFDDE3127C2287A003C627C /* nea2k music */,
+				CFFDDE4227C2287C003C627C /* nea2k musicTests */,
+				CFFDDE4C27C2287C003C627C /* nea2k musicUITests */,
+				CF24856827C2510900A2A3BE /* nea2k music Widget */,
+				CF24856327C2510900A2A3BE /* Frameworks */,
+				CFFDDE3027C2287A003C627C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFFDDE3027C2287A003C627C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFFDDE2F27C2287A003C627C /* nea2k music.app */,
+				CFFDDE3F27C2287C003C627C /* nea2k musicTests.xctest */,
+				CFFDDE4927C2287C003C627C /* nea2k musicUITests.xctest */,
+				CF24856227C2510900A2A3BE /* nea2k music widgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFFDDE3127C2287A003C627C /* nea2k music */ = {
+			isa = PBXGroup;
+			children = (
+				CFABFE31296EA0B800AF86A8 /* nea2k music.entitlements */,
+				CFFDDE5E27C228A1003C627C /* nea2k-music-Info.plist */,
+				CFFDDE3227C2287A003C627C /* nea2k_musicApp.swift */,
+				CFFDDE3427C2287A003C627C /* ContentView.swift */,
+				CFFA67C42911467300A7F890 /* ColorExtension.swift */,
+				CFABFE30296E98F100AF86A8 /* View */,
+				CF24855C27C23D9500A2A3BE /* playerModel.swift */,
+				CFFDDE3627C2287C003C627C /* Assets.xcassets */,
+				CF9D760727C491D500C1E00E /* Chicago Normal.ttf */,
+				CF9D760827C491D500C1E00E /* LucidaGrande.ttc */,
+				CFD5DB7A2824D91E0071066F /* EBGaramond-VariableFont_wght.ttf */,
+				CFD5DB772824CDF10071066F /* Baskerville.ttc */,
+				CFFDDE3827C2287C003C627C /* Preview Content */,
+			);
+			path = "nea2k music";
+			sourceTree = "<group>";
+		};
+		CFFDDE3827C2287C003C627C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CFFDDE3927C2287C003C627C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CFFDDE4227C2287C003C627C /* nea2k musicTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFFDDE4327C2287C003C627C /* nea2k_musicTests.swift */,
+			);
+			path = "nea2k musicTests";
+			sourceTree = "<group>";
+		};
+		CFFDDE4C27C2287C003C627C /* nea2k musicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CFFDDE4D27C2287C003C627C /* nea2k_musicUITests.swift */,
+				CFFDDE4F27C2287C003C627C /* nea2k_musicUITestsLaunchTests.swift */,
+			);
+			path = "nea2k musicUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF24856127C2510900A2A3BE /* nea2k music widgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF24857427C2510C00A2A3BE /* Build configuration list for PBXNativeTarget "nea2k music widgetExtension" */;
+			buildPhases = (
+				CF24855E27C2510900A2A3BE /* Sources */,
+				CF24855F27C2510900A2A3BE /* Frameworks */,
+				CF24856027C2510900A2A3BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "nea2k music widgetExtension";
+			productName = "nea2k music widgetExtension";
+			productReference = CF24856227C2510900A2A3BE /* nea2k music widgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		CFFDDE2E27C2287A003C627C /* nea2k music */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFFDDE5327C2287C003C627C /* Build configuration list for PBXNativeTarget "nea2k music" */;
+			buildPhases = (
+				CFFDDE2B27C2287A003C627C /* Sources */,
+				CFFDDE2C27C2287A003C627C /* Frameworks */,
+				CFFDDE2D27C2287A003C627C /* Resources */,
+				CF24857727C2510C00A2A3BE /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF24857227C2510C00A2A3BE /* PBXTargetDependency */,
+			);
+			name = "nea2k music";
+			productName = "nea2k music";
+			productReference = CFFDDE2F27C2287A003C627C /* nea2k music.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFFDDE3E27C2287C003C627C /* nea2k musicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFFDDE5627C2287C003C627C /* Build configuration list for PBXNativeTarget "nea2k musicTests" */;
+			buildPhases = (
+				CFFDDE3B27C2287C003C627C /* Sources */,
+				CFFDDE3C27C2287C003C627C /* Frameworks */,
+				CFFDDE3D27C2287C003C627C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFFDDE4127C2287C003C627C /* PBXTargetDependency */,
+			);
+			name = "nea2k musicTests";
+			productName = "nea2k musicTests";
+			productReference = CFFDDE3F27C2287C003C627C /* nea2k musicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CFFDDE4827C2287C003C627C /* nea2k musicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFFDDE5927C2287C003C627C /* Build configuration list for PBXNativeTarget "nea2k musicUITests" */;
+			buildPhases = (
+				CFFDDE4527C2287C003C627C /* Sources */,
+				CFFDDE4627C2287C003C627C /* Frameworks */,
+				CFFDDE4727C2287C003C627C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFFDDE4B27C2287C003C627C /* PBXTargetDependency */,
+			);
+			name = "nea2k musicUITests";
+			productName = "nea2k musicUITests";
+			productReference = CFFDDE4927C2287C003C627C /* nea2k musicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFFDDE2727C2287A003C627C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					CF24856127C2510900A2A3BE = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					CFFDDE2E27C2287A003C627C = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					CFFDDE3E27C2287C003C627C = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = CFFDDE2E27C2287A003C627C;
+					};
+					CFFDDE4827C2287C003C627C = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = CFFDDE2E27C2287A003C627C;
+					};
+				};
+			};
+			buildConfigurationList = CFFDDE2A27C2287A003C627C /* Build configuration list for PBXProject "nea2k music" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFFDDE2627C2287A003C627C;
+			productRefGroup = CFFDDE3027C2287A003C627C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFFDDE2E27C2287A003C627C /* nea2k music */,
+				CFFDDE3E27C2287C003C627C /* nea2k musicTests */,
+				CFFDDE4827C2287C003C627C /* nea2k musicUITests */,
+				CF24856127C2510900A2A3BE /* nea2k music widgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF24856027C2510900A2A3BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF9D760B27C491DC00C1E00E /* LucidaGrande.ttc in Resources */,
+				CF9D760927C491D800C1E00E /* Chicago Normal.ttf in Resources */,
+				CF9D760D27C49A1800C1E00E /* Assets.xcassets in Resources */,
+				CF24856D27C2510C00A2A3BE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFFDDE2D27C2287A003C627C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF9D760C27C491DD00C1E00E /* LucidaGrande.ttc in Resources */,
+				CF9D760A27C491D900C1E00E /* Chicago Normal.ttf in Resources */,
+				CFFDDE3A27C2287C003C627C /* Preview Assets.xcassets in Resources */,
+				CFFDDE3727C2287C003C627C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFFDDE3D27C2287C003C627C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFFDDE4727C2287C003C627C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF24855E27C2510900A2A3BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF24856F27C2510C00A2A3BE /* nea2k_music_widget.intentdefinition in Sources */,
+				CFCE94D127C4BC530072C1B7 /* playerModel.swift in Sources */,
+				CFFA67C2291144D400A7F890 /* iPod1st_Widget.swift in Sources */,
+				CF24856A27C2510900A2A3BE /* nea2k_music_Widget.swift in Sources */,
+				CFF194852918AA7B0008B746 /* widgetLiveActivity.swift in Sources */,
+				CFFA67C62911467C00A7F890 /* ColorExtension.swift in Sources */,
+				CFF194822918A93F0008B746 /* widgetBundle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFFDDE2B27C2287A003C627C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF24857A27C349C200A2A3BE /* iPod1st_View.swift in Sources */,
+				CFF194842918A96A0008B746 /* widgetLiveActivity.swift in Sources */,
+				CF24857027C2510C00A2A3BE /* nea2k_music_widget.intentdefinition in Sources */,
+				CF62F6D927CDE07100CE8790 /* Braun type.swift in Sources */,
+				CFFDDE3527C2287A003C627C /* ContentView.swift in Sources */,
+				CF93FA7A27E05381005F2BF6 /* GameBoy.swift in Sources */,
+				CF44DD4A27E9F2B300F5CEC0 /* OP1styleView.swift in Sources */,
+				CF24855D27C23D9500A2A3BE /* playerModel.swift in Sources */,
+				CFFDDE3327C2287A003C627C /* nea2k_musicApp.swift in Sources */,
+				CF24857C27C34AD500A2A3BE /* iPodAquaView.swift in Sources */,
+				CF04985227FDA4FD0056B549 /* iPodWheel.swift in Sources */,
+				CFFA67C52911467300A7F890 /* ColorExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFFDDE3B27C2287C003C627C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFFDDE4427C2287C003C627C /* nea2k_musicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFFDDE4527C2287C003C627C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFFDDE5027C2287C003C627C /* nea2k_musicUITestsLaunchTests.swift in Sources */,
+				CFFDDE4E27C2287C003C627C /* nea2k_musicUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF24857227C2510C00A2A3BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF24856127C2510900A2A3BE /* nea2k music widgetExtension */;
+			targetProxy = CF24857127C2510C00A2A3BE /* PBXContainerItemProxy */;
+		};
+		CFFDDE4127C2287C003C627C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFFDDE2E27C2287A003C627C /* nea2k music */;
+			targetProxy = CFFDDE4027C2287C003C627C /* PBXContainerItemProxy */;
+		};
+		CFFDDE4B27C2287C003C627C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFFDDE2E27C2287A003C627C /* nea2k music */;
+			targetProxy = CFFDDE4A27C2287C003C627C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CF24857527C2510C00A2A3BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = "nea2k music widgetExtension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VVD3L3V6TF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "nea2k music widget/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "nea2k music widget";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.heykwarb.nea2k-music.nea2k-music-widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF24857627C2510C00A2A3BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = "nea2k music widgetExtension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VVD3L3V6TF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "nea2k music widget/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "nea2k music widget";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.heykwarb.nea2k-music.nea2k-music-widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CFFDDE5127C2287C003C627C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CFFDDE5227C2287C003C627C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFFDDE5427C2287C003C627C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "nea2k music/nea2k music.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"nea2k music/Preview Content\"";
+				DEVELOPMENT_TEAM = VVD3L3V6TF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "nea2k-music-Info.plist";
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.heykwarb.nea2k-music";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFFDDE5527C2287C003C627C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "nea2k music/nea2k music.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"nea2k music/Preview Content\"";
+				DEVELOPMENT_TEAM = VVD3L3V6TF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "nea2k-music-Info.plist";
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.heykwarb.nea2k-music";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CFFDDE5727C2287C003C627C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VVD3L3V6TF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.heykwarb.nea2k-musicTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nea2k music.app/nea2k music";
+			};
+			name = Debug;
+		};
+		CFFDDE5827C2287C003C627C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VVD3L3V6TF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.heykwarb.nea2k-musicTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nea2k music.app/nea2k music";
+			};
+			name = Release;
+		};
+		CFFDDE5A27C2287C003C627C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VVD3L3V6TF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.heykwarb.nea2k-musicUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "nea2k music";
+			};
+			name = Debug;
+		};
+		CFFDDE5B27C2287C003C627C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VVD3L3V6TF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.heykwarb.nea2k-musicUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "nea2k music";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF24857427C2510C00A2A3BE /* Build configuration list for PBXNativeTarget "nea2k music widgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF24857527C2510C00A2A3BE /* Debug */,
+				CF24857627C2510C00A2A3BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFFDDE2A27C2287A003C627C /* Build configuration list for PBXProject "nea2k music" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFFDDE5127C2287C003C627C /* Debug */,
+				CFFDDE5227C2287C003C627C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFFDDE5327C2287C003C627C /* Build configuration list for PBXNativeTarget "nea2k music" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFFDDE5427C2287C003C627C /* Debug */,
+				CFFDDE5527C2287C003C627C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFFDDE5627C2287C003C627C /* Build configuration list for PBXNativeTarget "nea2k musicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFFDDE5727C2287C003C627C /* Debug */,
+				CFFDDE5827C2287C003C627C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFFDDE5927C2287C003C627C /* Build configuration list for PBXNativeTarget "nea2k musicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFFDDE5A27C2287C003C627C /* Debug */,
+				CFFDDE5B27C2287C003C627C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFFDDE2727C2287A003C627C /* Project object */;
+}
